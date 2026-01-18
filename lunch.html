@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lunch | Sizzling Pinoy</title>
+    <link rel = "stylesheet" href = "reset.css">
+    <link rel = "stylesheet" href = "lunch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Mobile Menu Toggle Button -->
+    <button class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    
+    <div class="navigation" id="navigation">
+        <img src = "images/logo.png" alt = "Sizzling Pinoy Logo">
+        <div class = "menu">
+            <ul>
+                <a href = "home.html#home" onclick="closeMenu()"><li>
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/osuxyevn.json"
+                        trigger="hover"
+                        colors="primary:#261c15"
+                        state="hover-2"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    HOME</li></a>
+                <a href = "home.html#recipes" onclick="closeMenu()"><li>
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/kipaqhoz.json"
+                        trigger="morph"
+                        colors="primary:#261c15"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    RECIPES</li></a>
+                <a href = "#aboutus" onclick="closeMenu()"><li>
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/bhfjfgqz.json"
+                        trigger="hover"
+                        colors="primary:#261c15"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    About Us</li></a>
+                <a href = "#contact" onclick="closeMenu()"><li>
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/hpivxauj.json"
+                        trigger="hover"
+                        colors="primary:#261c15"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    Contact</li></a>
+            </ul>
+        </div>
+    </div>
+    
+    <div id = "banner">
+        <div id = "first">
+            <h1>Lunch</h1>
+            <div id = "list-container">
+                <div class = "card">
+                    <ul>
+                        <li><a href = "#adobong-pusit">Adobong Pusit</a></li>
+                        <li><a href = "#beef-kaldereta">Beef Kaldereta</a></li>
+                        <li><a href = "#bicol-express">Bicol Express</a></li>
+                        <li><a href = "#bulalo">Bulalo</a></li>
+                        <li><a href = "#chicken-adobo">Chicken Adobo</a></li>
+                        <li><a href = "#chicken-afritada">Chicken Afritada</a></li>
+                        <li><a href = "#chicken-curry">Chicken Curry</a></li>
+                        <li><a href = "#ginisang-munggo">Ginisang Munggo</a></li>
+                    </ul>
+                </div>
+                <div class = "card">
+                    <ul>
+                        <li><a href = "#igado">Igado</a></li>
+                        <li><a href = "#kare-kare">Kare-Kare</a></li>
+                        <li><a href = "#pork-adobo">Pork Adobo</a></li>
+                        <li><a href = "#pork-menudo">Pork Menudo</a></li>
+                        <li><a href = "#sinigang-na-hipon">Sinigang na Hipon</a></li>
+                        <li><a href = "#sstilapia">Sweet & Sour Tilapia</a></li>
+                        <li><a href = "#tortang-talong">Tortang Talong</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id = "container">
+
+            <div class = "recipe" id = "adobong-pusit">
+                <h2>ADOBONG PUSIT</h2>
+                <img src = "images/lunch/adobongpusit.jpg" alt = "Adobong Pusit">
+                <div class = "card-info">
+                    <p>Adobong Pusit is a delicious Filipino squid dish that utilizes the popular adobo method of cooking. To prepare the dish, squid is first boiled in soy sauce and vinegar, giving it a distinct flavor. It is then sautéed with garlic, onions, and tomatoes, which adds more depth to the flavor profile. The resulting dish is a harmonious blend of flavors that will surely excite your taste buds.</p>
+                    <p>For best results, it is recommended to use small to medium-sized squids as they have a more intense flavor compared to larger ones. However, finding fresh medium squids can be challenging in some places. </p>
+                    <p>This dish has its rich flavor that brings back good memories of home. However, it is important to note that since squid is delicate, overcooking it can make it rubbery in texture. Therefore, it is recommended to follow the indicated cooking time and avoid cooking it for too long. In case the texture becomes rubbery, try cooking it a little more to achieve a tender texture. Overall, this dish is a must-try for anyone who loves seafood and bold flavors.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2 lbs. medium-sized squid </li>
+                            <li>1 piece onion </li>
+                            <li>2 pieces tomatoes </li>
+                            <li>1/2 cup soy sauce</li>
+                            <li>1/2 cup vinegar</li>
+                            <li>1 cup water</li>
+                            <li>5 cloves crushed garlic</li>
+                            <li>1 teaspoon sugar</li>
+                            <li>Salt and pepper to taste</li>
+                            <li>2 tbsp cooking oil</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Heat a wok or cooking pot and add soy sauce, vinegar, and water. Bring it to a boil.</li>
+                            <li>Add squid to the mixture and wait for it to re-boil. Simmer for 5 minutes.</li>
+                            <li>Turn off the heat and separate the squid from the liquid. Set it aside.</li>
+                            <li>Heat cooking oil in a separate wok or cooking pot.</li>
+                            <li>Once the oil is hot enough, sauté garlic, onions, and tomatoes.</li>
+                            <li>Add the squid and cook for a few seconds.</li>
+                            <li>Pour in the soy sauce-vinegar-water mixture used to cook the squid earlier. Bring it to a boil and simmer for 3 minutes.</li>
+                            <li>Add ink, salt, ground black pepper, and sugar. Stir and simmer for 3 minutes.</li>
+                            <li>Transfer the dish to a serving bowl and serve.</li>
+                            <li>For a thicker sauce, remove the squid from the wok or cooking pot and let the sauce boil until enough liquid evaporates. Once done, top the squid with the sauce.</li>
+                            <li>Enjoy the dish!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "beef-kaldereta">
+                <h2>BEEF KALDERETA</h2>
+                <img src = "images/lunch/beefkaldereta.jpg" alt = "Beef Kaldereta">
+                <div class = "card-info">
+                    <p>Beef Kaldereta, also known as Caldereta, is a savory Filipino stew that is often served during special occasions such as parties and holidays. It is a hearty and flavorful dish that features tender beef pieces cooked in a rich tomato-based sauce with vegetables and spices. While traditionally made with goat meat, beef, chicken, or pork can also be used as a substitute for those who don't have access to goat meat.</p>
+                    <p>The recipe for beef kaldereta typically includes ingredients such as tomato sauce, onions, bell peppers, and cheese, which give the dish its signature flavor. However, what sets beef kaldereta apart from other Filipino stews is the use of liver spread. The liver spread is a key ingredient in this dish as it not only adds a unique flavor but also helps to thicken the sauce.</p>
+                    <p>To make beef kaldereta, the beef is first marinated in vinegar, garlic, and peppercorns before being browned in a pan with hot oil. The onions are then sautéed until translucent, and the beef is returned to the pan along with the tomato sauce, bay leaf, salt, sugar, and water. The dish is then simmered for a couple of hours until the beef is tender and the sauce has thickened. Vegetables such as potatoes, carrots, and red peppers are added towards the end and cooked until tender.</p>
+                    <p>Beef kaldereta is a delicious and comforting dish that is enjoyed by many Filipinos around the world. Its rich and complex flavors make it a perfect dish to share with family and friends during special occasions.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>1 ½ lbs stewing beef cut into 1 inch cubes</li>
+                            <li>½ cup vinegar</li>
+                            <li>6 whole peppercorns crushed</li>
+                            <li>4 cloves garlic crushed</li>
+                            <li>4 tablespoons vegetable oil</li>
+                            <li>1 onion sliced</li>
+                            <li>1 cup tomato sauce</li>
+                            <li>1 bay leaf</li>
+                            <li>2 teaspoons sea salt</li>
+                            <li>1 teaspoon sugar</li>
+                            <li>2 cups water ,or more as needed</li>
+                            <li>1 red bell pepper ,cut into strips</li>
+                            <li>1 small carrot ,peeled and diced</li>
+                            <li>1 potato ,peeled and diced</li>
+                            <li>1 teaspoon Tabasco sauce or your favorite hot sauce</li>
+                            <li>¼ cup liver spread</li>
+                            <li>½ cup frozen peas</li>
+                            <li>Grated cheddar cheese ,optional</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>In a bowl, mix vinegar, crushed peppercorns, and garlic. Add beef and cover with plastic wrap, marinate in the refrigerator for an hour.</li>
+                            <li>While waiting for the beef to marinate, prepare all the vegetables needed for the dish.</li>
+                            <li>After an hour, remove the beef from the marinade and let it drain for a few minutes.</li>
+                            <li>In a heavy pan, brown the beef in hot oil in small batches. Once browned, transfer to a plate and set aside.</li>
+                            <li>Using the same pan, sauté onions until translucent. Return the beef to the pan and add tomato sauce, bay leaf, salt, sugar, and water. Bring to a boil, then lower the heat, cover and simmer for 1 ½ to 2 hours until the beef becomes tender, stirring constantly, and adding more water as necessary.</li>
+                            <li>Add red pepper, potato, carrot, and hot sauce. Cover and simmer for another 10 minutes.</li>
+                            <li>Add liver paste and green peas, stir and cook for an additional 5 minutes.</li>
+                            <li>Transfer the dish to a serving plate and top with grated cheese, if desired.</li>
+                            <li>Serve as is or with steamed rice.</li>
+                            <li>Enjoy the flavorful beef and vegetable dish!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "bicol-express">
+                <h2>BICOL EXPRESS</h2>
+                <img src = "images/lunch/bicolexpress.jpg" alt = "Bicol Express">
+                <div class = "card-info">
+                    <p>Bicol Express is a famous dish from the Bicol region of the Philippines. It is a spicy and flavorful stew made with pork, hot chilies, coconut milk, shrimp paste, onion, and garlic. The dish gets its name from the passenger train that travels through the region, which is said to be as hot and spicy as the dish itself. The recipe has become popular all over the country, and many variations of the dish can be found in different regions.</p>
+                    <p>The Bicol Express recipe is unique because of the use of scalding-hot peppers, which are locally known as siling labuyo. The heat of the peppers can be adjusted according to one's preference, and the dish can be made milder or hotter. Coconut milk is also a staple ingredient in Bicolano cuisine, and it gives the dish its rich and creamy texture.</p>
+                    <p>Aside from being a popular dish, Bicol Express is also a symbol of Bicolano culture and heritage. It is a dish that is often served during celebrations and gatherings, and it represents the hospitality and warmth of the Bicolano people. The region is also known for its beautiful landscapes and natural wonders, such as the famous Mt. Mayon volcano.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>1/2 lb. pork belly, diced</li>
+                            <li>2 cups thin coconut milk</li>
+                            <li>2 tablespoon fresh alamang (shrimp paste)</li>
+                            <li>10 pieces Thai chili pepper, stemmed and minced</li>
+                            <li>6 pieces long chili (siling haba, siling panigang), sliced</li>
+                            <li>3 cloves garlic, minced</li>
+                            <li>1 medium-sized onion, minced</li>
+                            <li>1 cup thick coconut cream</li>
+                            <li>3 tablespoon minced ginger</li>
+                            <li>salt and pepper to taste</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Heat a pan and pour the cooking oil.</li>
+                            <li>Sauté garlic, onion, and ginger.</li>
+                            <li>Add the pork and cook until the color turns light brown which may take about 8 minutes.</li>
+                            <li>Mix the coconut milk and shrimp paste (alamang).</li>
+                            <li>Bring to a boil and then lower the heat to a simmer for 10 minutes.</li>
+                            <li>Add chili peppers and cook until half of the liquid has evaporated.</li>
+                            <li>Put in the long chili (siling haba/panigang).</li>
+                            <li>Pour the thick coconut cream and continue cooking until oil appears from the cream.</li>
+                            <li>Add salt and ground black pepper to taste.</li>
+                            <li>Serve hot.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "bulalo">
+                <h2>BULALO</h2>
+                <img src = "images/lunch/bulalo.jpg" alt = "Bulalo">
+                <div class = "card-info">
+                    <p>Bulalo is a popular Filipino dish that originates from the Southern Luzon region. It is a light-colored soup that is made by cooking beef shanks and beef marrow bones for hours until much of the collagen and fat has melted into the clear broth. The long cooking process results in a rich and flavorful broth that is perfect for a filling and comforting meal.</p>
+                    <p>The seasonings used in Bulalo can vary from chef to chef, with some using only salt and black pepper, while others may add bay leaves, garlic, or patis (fish sauce). The stew is typically made in a large cauldron, and it is best served with whatever vegetables are in season.</p>
+                    <p>To make the soup extra clear, a two-boil technique is often used. The first boil removes all the impurities from the beef, while the second boil is a long simmer that extracts all the flavors from the meat and bones. For those who want to save time, a pressure cooker can be used to cut the cooking time by two-thirds, although a heavy-bottomed stock pot or dutch oven can also be used.</p>
+                    <p>Bulalo is a versatile dish that can be enjoyed in any weather. Although it is native to a country where the average temperature rarely falls below 80 degrees, the filling stew is deceptively light and can be enjoyed even in warmer weather. The vegetables used in the stew can vary, and some popular options include corn, sayote, baby bok choy, pechay (Chinese cabbage), green beans, potatoes, and carrots.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2beef marrow bones (cut to expose marrow on one end)</li>
+                            <li>1 pound beef shank</li>
+                            <li>1 onion quartered</li>
+                            <li>3 cloves garlic</li>
+                            <li>1 teaspoon black peppercorns</li>
+                            <li>2 tablespoons patis (fish sauce)</li>
+                            <li>salt (to taste)</li>
+                            <li>2 cobs corn (cut into 2-inch segments)</li>
+                            <li>1 chayote (peeled and cubed)</li>
+                            <li>3 baby bok choy (leaves separated)</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Boil a large pot of water.</li>
+                            <li>Add the beef marrow bones and beef shank to the pot and return to a boil.</li>
+                            <li>Boil until no more red blood comes out of the meat or bones (approximately 10 minutes).</li>
+                            <li>Remove the meat and bones with tongs and scrub them under cold water to remove any scum.</li>
+                            <li>Dump out the water in the pot and rinse the pot.</li>
+                            <li>Return the cleaned meat and bones to the pot, then add onion, garlic, peppercorns, and patis.</li>
+                            <li>Cover the ingredients with water and bring to a rolling boil, skimming off any scum that accumulates.</li>
+                            <li>Reduce the heat to medium-low and let it cook for 1 ½ hours if using a pressure cooker, or simmer until the shank is fork-tender (4-5 hours) if not using a pressure cooker.</li>
+                            <li>Skim off any excessive fat from the top, but leave some for added flavor.</li>
+                            <li>Transfer the meat and bones to a bowl, then strain the stock through a fine mesh sieve, discarding the solids.</li>
+                            <li>Return the meat and bones to the strained stock.</li>
+                            <li>Add corn and chayote and simmer for another 20 minutes or until the chayote is tender.</li>
+                            <li>Salt to taste, then add bok choy at the last minute.</li>
+                            <li>Serve with rice.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "chicken-adobo">
+                <h2>CHICKEN ADOBO</h2>
+                <img src = "images/lunch/chickenadobo.jpg" alt = "Chicken Adobo">
+                <div class = "card-info">
+                    <p>Chicken adobo is a popular Filipino dish that is enjoyed by many. It is a delicious and tender braised chicken dish that is cooked in a garlicky soy vinegar sauce. This savory and tangy sauce is made with everyday ingredients like soy sauce, vinegar, black peppercorns, onion, and garlic. The resulting flavor is a mouthwatering mix of savory, salty, tangy, and garlicky notes that complement each other perfectly. This dish can be served as a main course with white or brown rice, and leafy greens. For a healthier option, you can serve it with cauliflower rice instead.</p>
+                    <p>One of the great things about chicken adobo is that it's very easy to make with just a handful of ingredients. The cooking process is simple and doesn't require any marinating time. You just throw everything into a pot or pan and let it simmer until the chicken is cooked through and tender. It takes only about 30 minutes to make from start to finish.</p>
+                    <p>Chicken adobo is considered the national dish of the Philippines and is enjoyed by many Filipinos all over the world. While chicken is the most common meat used in this dish, there are many variations of adobo that use pork, fish, shrimp, or even steak. The possibilities are endless, and each variation has its own unique flavor profile.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2 tablespoons vegetable oil</li>
+                            <li>1 (3 pound) chicken, cut into pieces</li>
+                            <li>1 large onion, quartered and sliced</li>
+                            <li>2 tablespoons minced garlic</li>
+                            <li>⅔ cup low sodium soy sauce</li>
+                            <li>⅓ cup white vinegar</li>
+                            <li>1 tablespoon garlic powder</li>
+                            <li>2 teaspoons black pepper</li>
+                            <li>1 bay leaf</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Heat oil in a large skillet or dutch oven on medium heat. Add sliced onions and cook until translucent.</li>
+                            <li>Push onions aside and place chicken thighs skin side down. Allow skin to brown for 3-5 minutes without constantly moving chicken around.</li>
+                            <li>Pour in soy sauce, garlic, black peppercorns, bay leaves, and white vinegar. Do not stir the sauce to allow the acid to fully evaporate.</li>
+                            <li>Bring mixture to a boil. Then, cover and reduce heat to a rolling simmer or low-medium heat for 10 minutes.</li>
+                            <li>Uncover the lid and flip chicken over so the skin is facing up. Cover and simmer for another 10 minutes.</li>
+                            <li>Uncover the lid and continue to simmer for 3-5 minutes to thicken the sauce.</li>
+                            <li>Remove from heat and serve. Enjoy with rice and greens!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "chicken-afritada">
+                <h2>CHICKEN AFRITADA</h2>
+                <img src = "images/lunch/chickenafritada.jpg" alt = "Chicken Afritada">
+                <div class = "card-info">
+                    <p>Chicken Afritada is a classic and well-loved Filipino dish that consists of chicken pieces cooked in a rich tomato-based sauce with various vegetables. This dish is perfect for any occasion, whether it's a family dinner or a special gathering. Some variations of the dish call for the addition of hot dogs or green peas, but the classic version usually includes carrots, potatoes, and bell peppers.</p>
+                    <p>To prepare Chicken Afritada, the chicken pieces are typically marinated in a combination of soy sauce and lemon juice, which helps to infuse them with flavor and tenderize the meat. After marinating, the chicken is sautéed with garlic, onions, and tomatoes until they are tender and fragrant. Then, the vegetables are added to the pot, and everything is simmered together until the chicken is fully cooked and the vegetables are tender.</p>
+                    <p>The sauce of the Chicken Afritada is the star of the dish, which is made with a combination of tomato sauce and other seasonings like bay leaves and black pepper. The sauce is what gives the dish its rich and savory flavor, making it perfect to pair with steamed rice or even bread. Some cooks prefer to make the sauce from scratch using fresh tomatoes, while others opt for the convenience of canned tomato sauce.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2 lbs chicken (mix of thighs and drumsticks)</li>
+                            <li>2 tablespoons lemon juice</li>
+                            <li>2 tablespoons soy sauce</li>
+                            <li>2 tablespoons olive oil</li>
+                            <li>2 cloves garlic, chopped</li>
+                            <li>1 medium onion, chopped</li>
+                            <li>1 medium tomato, diced</li>
+                            <li>2 tablespoons fish sauce</li>
+                            <li>Salt and pepper, to taste</li>
+                            <li>1 cup tomato sauce</li>
+                            <li>1 cup water</li>
+                            <li>1 large potatoes, cubed</li>
+                            <li>1 carrot, cubed</li>
+                            <li>1 red bell pepper, cubed</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Marinate chicken pieces in a mixture of soy sauce and lemon juice for 30 minutes, then drain.</li>
+                            <li>Heat oil in a heavy pan over medium-high heat. Sauté garlic, onions, and tomatoes for about 2 minutes or until onions are soft.</li>
+                            <li>Add chicken pieces and sauté until browned and no longer pink.</li>
+                            <li>Pour in fish sauce and stir, then add tomato sauce and water. Mix well and bring to a boil, then reduce the heat.</li>
+                            <li>Cover and let simmer, stirring occasionally for 20 minutes.</li>
+                            <li>Add carrots, red bell pepper, and potatoes. Cover and cook for an additional 10 minutes or until the potatoes are tender.</li>
+                            <li>Season with salt and pepper to taste.</li>
+                            <li>Serve hot with steamed rice. Enjoy!</li>>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "chicken-curry">
+                <h2>CHICKEN CURRY</h2>
+                <img src = "images/lunch/chickencurry.jpg" alt = "Chicken Curry">
+                <div class = "card-info">
+                    <p>Chicken curry is a beloved dish enjoyed in many cultures, including the Philippines. This Pinoy Chicken Curry recipe puts a unique Filipino twist on the classic dish, resulting in explosive flavors that are bold, earthy, and downright delicious. The moist chicken is cooked in a rich, creamy, and flavorful sauce that pairs perfectly with warm white rice.</p>
+                    <p>Unlike traditional chicken curry recipes from India, Filipino chicken curry typically uses bone-in chicken with the skin on, adding an extra layer of texture and flavor. Other unique ingredients found in Pinoy Chicken Curry include fish sauce, bell pepper, celery, and coconut milk or evaporated milk. These ingredients add depth and complexity to the dish, making it stand out from the traditional version. On the other hand, traditional chicken curry usually contains tomato, lemon juice, and yogurt, which are not utilized in this recipe.</p>
+                    <p>One of the best things about Pinoy Chicken Curry is its distinct aroma that fills the kitchen, making it impossible to resist. The combination of spices and ingredients creates a fragrant and irresistible smell that is sure to whet your appetite. Pinoy Chicken Curry is a kitchen staple for many Filipinos, and for good reason. The unique blend of flavors and ingredients make it a true culinary delight, especially for those with a classic Filipino taste palate. Whether enjoyed on a cold day or as a comfort food, Pinoy Chicken Curry is a dish that is sure to satisfy your cravings.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2 lbs. chicken cut into serving pieces</li>
+                            <li>1 tablespoon curry powder</li>
+                            <li>1 piece potato cubed</li>
+                            <li>4 cloves garlic minced</li>
+                            <li>2 stalks celery sliced</li>
+                            <li>1 piece red bell pepper sliced</li>
+                            <li>2 pieces long green pepper</li>
+                            <li>1 piece onion chopped</li>
+                            <li>2 thumbs ginger cut into strips</li>
+                            <li>2 cups coconut milk</li>
+                            <li>1/2 cup all-purpose cream optional</li>
+                            <li>1 cup water</li>
+                            <li>fish sauce and ground black pepper to taste</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Heat oil in a pan and fry potato for 1 minute per side. Remove from the pan and set aside.</li>
+                            <li>Use the remaining oil to saute garlic, onion, celery, and ginger until the onion softens.</li>
+                            <li>Add chicken pieces and saute until the outer part of the chicken turns light brown.</li>
+                            <li>Add 1 tablespoon fish sauce and continue sautéing for 1 minute.</li>
+                            <li>Pour in coconut milk and water, let it boil.</li>
+                            <li>Add curry powder and stir until it is completely diluted. Cover the pot and continue cooking over low to medium heat until the liquid reduces to half.</li>
+                            <li>Add red bell pepper and the pan-fried potato, cook for 5 minutes.</li>
+                            <li>Season with fish sauce and ground black pepper as needed. You can also add all-purpose cream if desired.</li>
+                            <li>Transfer to a serving bowl, serve and enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "ginisang-munggo">
+                <h2>GINISANG MUNGGO</h2>
+                <img src = "images/lunch/ginisangmunggo1.jpg" alt = "Ginisang Munggo">
+                <div class = "card-info">
+                    <p>Ginisang Munggo is a popular Filipino dish made with mung beans, pork, and spinach. It is a healthy and nutritious meal that is easy to prepare and budget-friendly. The dish has a creamy texture and a slightly sweet taste that is complemented by the savory flavor of the pork. Mung beans, also known as monggo, are a great source of protein and fiber, making them a staple in many Filipino households.</p>
+                    <p>To make ginisang munggo, the mung beans are first cleaned and boiled until tender. In a separate pan, the pork and aromatics such as garlic and onions are sauteed and seasoned with fish sauce or patis. Once the pork is cooked, the boiled mung beans are added back into the pan, and the mixture is simmered until the desired consistency is achieved. Spinach or other leafy greens are then added to the pot and cooked until wilted.</p>
+                    <p>Ginisang Munggo is typically served with rice and additional toppings such as chicharon or tinapa for added flavor and texture. It is a hearty and satisfying meal that can be enjoyed any time of day, and is especially comforting on a chilly day. The dish is a popular comfort food in the Philippines and is often served during family gatherings and special occasions.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>1 ½ cup mung beans, or munggo</li>
+                            <li>1/2 lb (250 g) pork, thinly sliced</li>
+                            <li>1 pc medium-sized onion, chopped</li>
+                            <li>4 cloves garlic, minced</li>
+                            <li>2 pcs tomato, diced</li>
+                            <li>2 cups spinach, (or malunggay or alugbati leaves)</li>
+                            <li>3 tbsp patis, fish sauce</li>
+                            <li>3 cups water</li>
+                            <li>1 tbsp cooking oil</li>
+                            <li>10 pcs shrimp, peeled and deveined, optional</li>
+                            <li>Chicharon (pork rind), optional topping</li>
+                            <li>Tinapa (smoked fish), shredded, optional topping</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Start by cleaning the mung beans. Discard any dirt and bad beans and wash them with running water.</li>
+                            <li>Pour water into a cooking pot and bring it to a boil.</li>
+                            <li>Add the mung beans and simmer until they become soft and tender, which typically takes 30 to 45 minutes. Then, set them aside. You may also crush the mung beans with the back of a spoon.</li>
+                            <li>In another cooking pot, heat the cooking oil.</li>
+                            <li>Add the garlic, onion, and tomato, and sauté them until they become tender and aromatic.</li>
+                            <li>Add the pork and cook it for 5 minutes.</li>
+                            <li>Add the fish sauce and simmer for another 5 minutes to release the flavor of the pork. You may also add water and simmer for an additional 5 minutes to tenderize the pork.</li>
+                            <li>Add the shrimp and cook for 2 minutes.</li>
+                            <li>Add the cooked mung beans, including the water.</li>
+                            <li>Stir and simmer for 10 minutes.</li>
+                            <li>Add the spinach and cook for 1 more minute.</li>
+                            <li>Remove from heat and add optional toppings. Transfer to a serving bowl and enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "igado">
+                <h2>IGADO</h2>
+                <img src = "images/lunch/igado.jpg" alt = "Igado">
+                <div class = "card-info">
+                    <p>Igado is a traditional dish hailing from the northern region of the Philippines and is widely known for its use of pork tenderloin and pig's innards such as liver, kidney, and heart. While some people may be hesitant to try it due to its unconventional meat components, Igado is undoubtedly one of the best Filipino dishes with its rich and unique blend of flavors. Pinoy cooks are known for their resourcefulness and creativity in utilizing every ingredient to its fullest potential, and Igado is a prime example of this trait.</p>
+                    <p>The dish itself has a long history and was heavily influenced by Spanish cuisine, as the word "higado" means liver in Spanish. The name "Igado" is said to have originated from Filipinos hearing the Spanish word and adapting it to their own language. The recipe typically involves marinating the meat in soy sauce and vinegar before sautéing it with garlic, onions, and tomatoes. This is then simmered in a mixture of broth and soy sauce until the meat becomes tender and flavorful.</p>
+                    <p>To complement the meat components, Igado also includes a few vegetables such as bell peppers and green peas, adding a burst of color and texture to the dish. The result is a savory and hearty stew that is perfect for any occasion, whether it's a family gathering or a casual dinner with friends. While some people may need to acquire a taste for Igado, it is definitely worth trying for anyone who wants to experience the unique and delicious flavors of Filipino cuisine.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>1/2 lbs. pork tenderloin sliced into 2-inch strips</li>
+                            <li>1/2 lb. pork liver sliced into 2-inch strips</li>
+                            <li>1/2 lb. pork kidney</li>
+                            <li>1 Knorr Pork Cube</li>
+                            <li>1 red bell pepper cut into strips</li>
+                            <li>1/2 cup green peas</li>
+                            <li>1 carrot julienne</li>
+                            <li>3 laurel leaves</li>
+                            <li>1 onion minced</li>
+                            <li>5 cloves garlic minced</li>
+                            <li>6 tablespoons soy sauce</li>
+                            <li>5 tablespoons white vinegar</li>
+                            <li>1 1/4 cup water</li>
+                            <li>4 tablespoons cooking oil</li>
+                            <li>Salt and pepper to taste</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Begin by boiling the kidney with 4 thumbs of ginger for at least 30 minutes. Once done, let it cool down and slice into 2-inch strips. Set aside.</li>
+                            <li>Heat 2 tablespoons of cooking oil in a pan. Sauté the pork liver for 2 minutes. Remove from the pan and set aside.</li>
+                            <li>Pour the remaining oil in the pan. Once hot, sauté garlic and onion until the latter softens.</li>
+                            <li>Add the pork kidney and cook for 1 minute.</li>
+                            <li>Add the pork tenderloin and sauté until the outer layer turns light brown.</li>
+                            <li>Pour the soy sauce and vinegar into the pan. Let the liquid boil. Stir.</li>
+                            <li>Add the laurel leaves and pour water. Let boil. Reduce the heat between low to medium setting. Continue cooking for 40 minutes.</li>
+                            <li>Add Knorr Pork Cube and cook for 8 minutes.</li>
+                            <li>Add the liver back into the pan. Stir and continue cooking for 3 minutes.</li>
+                            <li>Put the bell pepper, carrot, and green peas into the pan.</li>
+                            <li>Season with salt and ground black pepper. Cook for 2 minutes.</li>
+                            <li>Transfer to a serving bowl. Serve hot with rice.</li>
+                            <li>Share and enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "kare-kare">
+                <h2>KARE-KARE</h2>
+                <img src = "images/lunch/karekare.jpg" alt = "Kare-Kare">
+                <div class = "card-info">
+                    <p>Kare-kare is a hearty and flavorful Filipino stew that has been a staple in many households and restaurants across the country for decades. It is a traditional dish that is often served during special occasions, as it involves a labor-intensive cooking process. The main ingredients of kare-kare are oxtails, beef stew cuts, pork hocks, or tripe, which are slowly simmered for several hours until they reach the desired tenderness.</p>
+                    <p>In addition to the meat, kare-kare also contains an array of vegetables, such as banana heart, long beans, and eggplant, which add a unique texture and flavor to the dish. The stew is then thickened with ground peanuts and toasted ground rice, giving it a rich and nutty taste. Annatto is also added to the dish to give it a distinctive orange color.</p>
+                    <p>While the traditional cooking process can be quite time-consuming, there are now simplified versions of kare-kare that use rice flour and peanut butter to cut down on preparation time. This has made it easier for home cooks to enjoy the dish on a regular basis.</p>
+                    <p>Kare-kare is a comforting and satisfying meal that is perfect for cooler months or whenever you're in the mood for a hearty stew. It is typically served with steamed rice and can be enjoyed with a variety of condiments such as bagoong (fermented shrimp paste) or calamansi (a type of citrus fruit). With its complex flavors and unique ingredients, kare-kare has become one of the most beloved dishes in Filipino cuisine.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2 pounds oxtail cut into serving size</li>
+                            <li>water</li>
+                            <li>1 banana heart</li>
+                            <li>2 large eggplant ends trimmed and cut into 1-inch thick</li>
+                            <li>1 bundle long beans sitaw, cut into 3-inch lengths</li>
+                            <li>1 bundle pechay ends trimmed and leaves separated</li>
+                            <li>1/4 cup rice flour</li>
+                            <li>1-1/2 tablespoons annatto powder</li>
+                            <li>1-1/2 cups chunky peanut butter</li>
+                            <li>1 tablespoon oil</li>
+                            <li>1 medium onion peeled and sliced thinly</li>
+                            <li>4 to 5 cloves garlic peeled and minced</li>
+                            <li>2 tablespoons fish sauce</li>
+                            <li>salt and pepper to taste</li>
+                            <li>shrimp paste</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Rinse oxtail with cold water, trim excess fat, and place in a deep pot with enough water to cover.</li>
+                            <li>Bring the pot to a boil over medium heat, skimming any scum that accumulates on the top.</li>
+                            <li>Lower the heat, cover the pot, and let it simmer for 2 to 3 hours or until the oxtail is easily pierced with a fork. Add water as necessary to maintain 6 cups of liquid.</li>
+                            <li>Drain the oxtail, reserving about 6 cups of broth.</li>
+                            <li>Peel and discard the outer layers of the banana heart until reaching the soft core. Cut it into pieces, soak it in salted water for 15-20 minutes, squeeze out the sap, and rinse with cold water.</li>
+                            <li>In a pot, blanch the banana heart, eggplant, long beans, and pechay for varying amounts of time, then remove from the liquid and set aside.</li>
+                            <li>In a skillet, toast rice flour until lightly browned, then whisk it with 1/4 cup of reserved broth.</li>
+                            <li>In a small bowl, dissolve annatto powder in 1/4 cup of reserved broth.</li>
+                            <li>In a separate bowl, combine peanut butter and 1/2 cup of reserved broth.</li>
+                            <li>In a large pot, heat oil, cook onions and garlic until soft, then add oxtail and cook until lightly browned.</li>
+                            <li>Add fish sauce and cook for 2-3 minutes, then add the remaining 5 cups of reserved broth and bring to a simmer.</li>
+                            <li>Add the annatto water, rice flour mixture, and peanut butter mixture, stirring well to combine. Season with salt and pepper.</li>
+                            <li>Simmer for 10 minutes or until slightly thickened.</li>
+                            <li>Add blanched vegetables and cook for 2-3 minutes.</li>
+                            <li>Serve hot with shrimp paste on the side.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "pork-adobo">
+                <h2>PORK ADOBO</h2>
+                <img src = "images/lunch/porkadobo.jpg" alt = "Pork Adobo">
+                <div class = "card-info">
+                    <p>Pork adobo is a classic Filipino dish that has Spanish influences. The dish is composed of tender pork cooked in a tangy, savory sauce made with vinegar, garlic, soy sauce, and black pepper. The use of vinegar in the recipe not only adds tanginess to the dish but also acts as a preservative, allowing the meat to last longer.</p>
+                    <p>While there are many different variations of adobo across the Philippines, the classic recipe usually involves marinating the meat in the sauce before cooking it. However, this recipe takes a slightly different approach by browning the pork pieces first, which enhances the flavor of the meat. Once the pork is browned, the rest of the ingredients are added and the mixture is left to simmer for at least 45 minutes.</p>
+                    <p>This slow cooking process allows the flavors of the sauce to penetrate the meat, making it incredibly tender and flavorful. To give the dish a darker color, dark soy sauce is often used. Additionally, the addition of honey at the end of the cooking process helps to balance out the tanginess of the vinegar and adds a subtle sweetness to the dish.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2 lbs pork shoulder or pork belly , cut into bite-size pieces</li>
+                            <li>2 tbsp vegetable oil</li>
+                            <li>3 cloves garlic , chopped</li>
+                            <li>1/3 cup soy sauce</li>
+                            <li>1/3 cup white vinegar</li>
+                            <li>1 bay leaf</li>
+                            <li>½ tsp freshly ground pepper</li>
+                            <li>1 cup water or more as needed</li>
+                            <li>1 tbsp honey or brown sugar</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Heat oil in a large skillet, making sure to rotate to coat the sides of the skillet.</li>
+                            <li>Add pork pieces to the skillet and cook until the meat is browned.</li>
+                            <li>Add garlic to the skillet and sauté for a minute.</li>
+                            <li>Add soy sauce, vinegar, bay leaf, pepper, and water to the skillet.</li>
+                            <li>Bring the mixture to a boil and then reduce the heat to a simmer, making sure to cover the skillet. Simmer for 45 minutes or until the pork is tender. Be careful not to let the mixture dry out.</li>
+                            <li>Add water ½ cup at a time several times until the desired amount of sauce has been reached and the pork is tender.</li>
+                            <li>Stir in honey or brown sugar to the skillet.</li>
+                            <li>Serve the pork adobo over steamed rice.</li>
+                            <li>Enjoy your delicious meal!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "pork-menudo">
+                <h2>PORK MENUDO</h2>
+                <img src = "images/lunch/porkmenudo.png" alt = "Pork Menudo">
+                <div class = "card-info">
+                    <p>Pork menudo is a beloved stew in the Philippines that is enjoyed in various settings, from a simple dinner at home to a big celebration during fiestas. It's a perfect dish for feeding a crowd as it is filled with colorful vegetables like potatoes and carrots and often includes sausages, hot dogs, raisins, and liver or liver paste. While liver is a nearly universal ingredient in menudo, some people prefer to skip it, as it is an organ meat. The dish is adaptable to personal preferences and regional variations, with each cook adding their own touch to make it unique.</p>
+                    <p>The preparation of menudo is similar to that of other Spanish-influenced stews such as caldereta and asado, which were passed down from Spain during its 300 years of colonization of the Philippines. Menudo is typically made by sautéing onions, garlic, and tomatoes in oil before adding pork pieces and cooking until browned. Soy sauce, bay leaves, and other seasonings are added, along with water, and the stew is simmered until the pork is tender. The result is a flavorful and comforting dish that is often served over rice.</p>
+                    <p>For those who are new to menudo, it is a must-try dish that represents the rich and diverse flavors of Filipino cuisine. Whether enjoyed at a small roadside food stall or as part of a big feast during a celebration, pork menudo is a dish that brings people together and celebrates the joy of sharing food with others.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2 lbs pork (preferably a fatter cut such as Boston butt)</li>
+                            <li>2 cups onion, chopped</li>
+                            <li>1 cup fresh tomato, chopped</li>
+                            <li>1 15 oz can tomato sauce</li>
+                            <li>6 large garlic cloves, chopped</li>
+                            <li>1 large potato, skinned and cubed</li>
+                            <li>1 cup carrot, cubed</li>
+                            <li>1 medium green bell pepper</li>
+                            <li>1 medium red bell pepper</li>
+                            <li>1 cup green peas</li>
+                            <li>1 cup garbanzo beans</li>
+                            <li>1/3 cup raisins</li>
+                            <li>1/2 fresh lime or lemon juice</li>
+                            <li>4 Tbsp soy sauce, divided</li>
+                            <li>1.5 Tbsp fish sauce</li>
+                            <li>2 tsp brown sugar</li>
+                            <li>2 bay leaves</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Begin by marinating the pork in lemon/lime juice, soy sauce, bay leaves, salt, and pepper for at least 30 minutes to a couple of hours.</li>
+                            <li>Cube the potatoes, carrots, and bell peppers. Chop the onions and garlic.</li>
+                            <li>Heat oil in a dutch oven or stew pot over medium-high heat. Add onions and sauté until translucent. Add chopped garlic and stir for 2 minutes.</li>
+                            <li>Add the marinated pork along with its juices and cook for about 5-10 minutes until the pork is no longer pink.</li>
+                            <li>Pour in fish sauce and 1 cup of water. Cook for 10 minutes covered.</li>
+                            <li>Add the tomatoes and tomato sauce, along with enough water to cover the pork. Cook covered for 30-40 minutes, stirring occasionally.</li>
+                            <li>Add potatoes, carrots, and brown sugar. Cover and cook for 15-20 minutes. Add half a cup of water if more liquid is needed.</li>
+                            <li>15 minutes before the stew is done, add bell peppers, peas, garbanzos, and raisins.</li>
+                            <li>Taste and adjust the seasoning with soy sauce.</li>
+                            <li>Continue cooking until the pork is fork-tender.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "sinigang-na-hipon">
+                <h2>SINIGANG NA HIPON</h2>
+                <img src = "images/lunch/sinigangnahipon.jpg" alt = "Sinigang na Hipon">
+                <div class = "card-info">
+                    <p>Sinigang na Hipon is a delicious Filipino soup dish made with shrimp and a sour soup base. It is a popular variation of the traditional pork-based sinigang soup. The soup base is made sour by adding different souring agents such as tamarind, calamansi, guava, or green mango. Tamarind is the most commonly used souring agent and adds a distinct sour flavor to the soup.</p>
+                    <p>To cook sinigang na hipon, it is important to have all the ingredients ready beforehand. The shrimp can be purchased fresh, pre-cooked, shelled or deveined, depending on your preference. Fresh shrimp is preferred, and it is recommended to clean and devein them yourself for better results. The vegetables should be chopped into small, bite-sized pieces so that they cook evenly.</p>
+                    <p>Sinigang na hipon is usually served hot with steamed rice. The sourness of the soup is balanced with the sweetness of the shrimp and the vegetables, making it a flavorful and healthy meal option. It is also a versatile dish that can be customized to suit individual preferences. Some people prefer to add more sourness to the soup, while others prefer it less sour. Some also add a little spice to the soup by adding chili peppers. Overall, Sinigang na Hipon is a delicious and satisfying soup dish that is enjoyed by many Filipinos and non-Filipinos alike.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>500 g shrimp (hipon)</li>
+                            <li>15 pcs tamarind pods (sampalok)</li>
+                            <li>1 pc medium-sized onion, chopped</li>
+                            <li>1 pc radish (labanos), cut into thin pieces</li>
+                            <li>2 pcs tomato, cut into quarters</li>
+                            <li>1 bunch kangkong</li>
+                            <li>4 pcs okra</li>
+                            <li>3 pcs green chili pepper</li>
+                            <li>3 tbsp fish sauce</li>
+                            <li>5 cups rice water</li>
+                            <li>salt and pepper, to taste</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Fill a cooking pot with water and add tamarind pods. Bring to a boil and simmer until tender and the skin begins to burst.</li>
+                            <li>Mash the tamarind in another plate with a fork or any hard object.</li>
+                            <li>Pour the tamarind liquid into another bowl while using a strainer. Repeat the process until all of the tamarind juice is extracted. Set aside.</li>
+                            <li>In a cooking pot, pour in rice water and bring it to a boil over medium heat.</li>
+                            <li>Add onions, tomatoes, and radish. Cook for 2 to 3 minutes.</li>
+                            <li>Add shrimp and cook for 3 to 5 minutes or until pink.</li>
+                            <li>Pour in the tamarind juice and simmer for another 2 minutes.</li>
+                            <li>Add okra and green chili pepper. Cook for 2 to 4 minutes.</li>
+                            <li>Add kangkong stalks and season with fish sauce, salt, and pepper. Turn off the heat.</li>
+                            <li>Transfer the cooked sinigang na hipon to a serving bowl or tray. Serve and enjoy!</li>
+                            <li>You may also add other vegetables such as eggplant or string beans to your liking.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "sstilapia">
+                <h2>Sweet & Sour Tilapia</h2>
+                <img src = "images/lunch/sstilapia.jpg" alt = "Sweet & Sour Tilapia">
+                <div class = "card-info">
+                    <p>Sweet and sour is a classic flavor combination that has been popular in Asian cuisine for centuries. The Chinese, particularly the Cantonese, were the ones who first came up with the idea of mixing these two contrasting flavors together. The combination of sweet and sour creates a perfect balance of flavors that is both tangy and savory.</p>
+                    <p>Sweet and sour tilapia is a delicious and easy-to-make dish that is perfect for any occasion. This dish can be prepared using either fish fillets or a whole fish, but grouper or lapu-lapu fish is commonly used in the Philippines. However, tilapia is also a great option for this recipe, as it is affordable and widely available all around the world.</p>
+                    <p>To make sweet and sour tilapia, the fish is first fried until golden brown and crispy. Then, a sweet and sour sauce made with vinegar, sugar, tomato ketchup, soy sauce, and pineapple juice is poured over the fish, giving it a deliciously tangy and sweet flavor. Some recipes may also include vegetables like bell peppers, onions, and carrots to add more flavor and texture to the dish.</p>
+                    <p>This dish is perfect for those who love a balance of sweet and savory flavors in their food. It can be served with steamed rice or noodles, making it a satisfying and filling meal. Whether you're looking for a quick and easy meal to make on a busy weeknight or a dish to serve to guests at a dinner party, sweet and sour tilapia is definitely a crowd-pleaser.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>2 pieces tilapia cleaned</li>
+                            <li>2 tablespoons Knorr Liquid Seasoning</li>
+                            <li>1 piece red bell pepper julienne</li>
+                            <li>1 piece green bell pepper julienne</li>
+                            <li>1 piece carrot julienne</li>
+                            <li>5 cloves garlic crushed</li>
+                            <li>1 piece onion sliced</li>
+                            <li>2 thumbs ginger julienne</li>
+                            <li>2 tablespoons cornstarch</li>
+                            <li>2 cups water</li>
+                            <li>5 1/2 tablespoons white vinegar</li>
+                            <li>8 tablespoons tomato ketchup</li>
+                            <li>7 tablespoons white sugar</li>
+                            <li>1 ¼ cup cooking oil</li>
+                            <li>Salt and ground black pepper to taste</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Rub Knorr Liquid Seasoning all over the tilapia and let it marinate for 10 minutes.</li>
+                            <li>Heat 1 cup of cooking oil in a pan and fry the tilapia until golden brown on both sides. Set aside on a clean plate.</li>
+                            <li>To make the sauce, heat 3 tablespoons of cooking oil in a cooking pot and sauté onion, garlic, and ginger.</li>
+                            <li>Pour in white vinegar and water, then add tomato ketchup and stir until it dissolves.</li>
+                            <li>Add sugar, stir until fully incorporated, then add carrots and bell peppers and cook for 3 minutes.</li>
+                            <li>Mix cornstarch and 3 tablespoons water, then pour into the pot and stir until sauce thickens.</li>
+                            <li>Season with salt and ground black pepper and add a piece of tilapia. Cook for 3 minutes.</li>
+                            <li>Transfer the sweet and sour tilapia to a serving plate and serve with rice. Enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "tortang-talong">
+                <h2>TORTANG TALONG</h2>
+                <img src = "images/lunch/tortangtalong.jpg" alt = "Tortang Talong">
+                <div class = "card-info">
+                    <p>Tortang Talong is a classic Filipino dish that is enjoyed by many households in the country. This dish is simple to make, yet it is packed with flavor and nutritional value. The main ingredient of the dish is eggplant, which is high in vitamins C, K, and B6, as well as fiber, potassium, and other essential nutrients. This makes the dish not only delicious but also a healthy option for those who are health-conscious.</p>
+                    <p>The preparation of the dish is quite straightforward. First, the eggplant is grilled until the skin turns almost black. Afterward, the skin is peeled off, and the eggplant is flattened using a fork. The flattened eggplant is then dipped into beaten eggs seasoned with salt before it is fried in a pan with cooking oil.</p>
+                    <p>Tortang Talong is perfect as a main course or a side dish. It goes well with rice and some ketchup on the side. The dish is versatile and can be customized to one's liking by adding other ingredients such as ground meat or vegetables.</p>
+                    <p>In Filipino culture, Tortang Talong is not only a favorite dish but also a symbol of resourcefulness and creativity. It showcases how simple and readily available ingredients can be transformed into a delicious and satisfying meal.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>4 pieces Chinese eggplant</li>
+                            <li>2 pieces raw eggs</li>
+                            <li>1 teaspoon salt</li>
+                            <li>6 tablespoons cooking oil</li>
+                        </ul>
+                        <h4>Instructions</h4>
+                        <ol>
+                            <li>Grill the eggplant until the skin turns almost black</li>
+                            <li>Let the eggplant cool down then remove the skin. Set aside.</li>
+                            <li>Crack the eggs into a bowl and add salt. Beat the mixture.</li>
+                            <li>Place the eggplant on a flat surface and use a fork to flatten it.</li>
+                            <li>Dip the flattened eggplant into the beaten egg mixture.</li>
+                            <li>Heat a pan and pour cooking oil.</li>
+                            <li>ry the eggplant that was dipped in the egg mixture, ensuring that both sides are cooked. The frying time is approximately 3 to 4 minutes per side on medium heat.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class = "up">
+        <button class = "up-button"><a href = "#banner">&#187</a></button>
+    </div>
+
+   
+</body>
+</html>
+<script>
+    // Mobile menu toggle
+    function toggleMenu() {
+        const nav = document.getElementById('navigation');
+        nav.classList.toggle('active');
+    }
+
+    function closeMenu() {
+        const nav = document.getElementById('navigation');
+        nav.classList.remove('active');
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        const nav = document.getElementById('navigation');
+        const menuToggle = document.querySelector('.menu-toggle');
+        
+        if (nav && menuToggle && !nav.contains(event.target) && !menuToggle.contains(event.target)) {
+            nav.classList.remove('active');
+        }
+    });
+</script>

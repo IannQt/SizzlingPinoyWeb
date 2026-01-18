@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meryenda | Sizzling Pinoy</title>
+    <link rel = "stylesheet" href = "reset.css">
+    <link rel = "stylesheet" href = "meryenda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Mobile Menu Toggle Button -->
+    <button class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <div class="navigation" id="navigation">
+        <img src = "images/logo.png" alt = "Sizzling Pinoy Logo">
+        <div class = "menu">
+            <ul>
+                <a href = "home.html#home" onclick="closeMenu()"><li>
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/osuxyevn.json"
+                        trigger="hover"
+                        colors="primary:#261c15"
+                        state="hover-2"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    HOME</li></a>
+                <a href = "home.html#recipes" onclick="closeMenu()"><li>
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/kipaqhoz.json"
+                        trigger="morph"
+                        colors="primary:#261c15"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    RECIPES</li></a>
+                <a href = "home.html#aboutus" onclick="closeMenu()"><li>
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/bhfjfgqz.json"
+                        trigger="hover"
+                        colors="primary:#261c15"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    About Us</li></a>
+                <a href = "home.html#contact" onclick="closeMenu()"><li>
+                    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/hpivxauj.json"
+                        trigger="hover"
+                        colors="primary:#261c15"
+                        style="width:20px;height:20px">
+                    </lord-icon>
+                    Contact</li></a>
+            </ul>
+        </div>
+    </div>
+    
+    <div id = "banner">
+        <div id = "first">
+            <h1>Meryenda</h1>
+            <div id = "list-container">
+                <div class = "card">
+                    <ul>
+                        <li><a href = "#banana-cue">Banana Cue</a></li>
+                        <li><a href = "#champorado">Champorado</a></li>
+                        <li><a href = "#chicken-mami">Chicken Mami</a></li>
+                        <li><a href = "#empanada">Empanada</a></li>
+                        <li><a href = "#halo-halo">Halo-Halo</a></li>
+                        <li><a href = "#lomi">Lomi</a></li>
+                        <li><a href = "#lugaw">Lugaw</a></li>
+                    </ul>
+                </div>
+                <div class = "card">
+                    <ul>
+                        <li><a href = "#maja-blanca">Maja Blanca</a></li>
+                        <li><a href = "#pancit-palabok">Pancit Palabok</a></li>
+                        <li><a href = "#pinoy-spaghetti">Pinoy Spaghetti</a></li>
+                        <li><a href = "#puto">Puto</a></li>
+                        <li><a href = "#suman">Suman</a></li>
+                        <li><a href = "#turon">Turon</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id = "container">
+
+            <div class = "recipe" id = "banana-cue">
+                <h2>BANANA CUE</h2>
+                <img src = "images/meryenda/bananacue.jpg" alt = "Banana Cue">
+                <div class = "card-info">
+                    <p>In the Philippines, Banana Cue is a popular street food that has become a favorite snack among locals and tourists alike. The key ingredient of this mouth-watering delicacy is the "Saba" banana, which is a tropical fruit that grows abundantly in the Philippines. Known for its delectable sweetness and versatility in cooking, the Saba banana is the star of this dish.</p>
+                    <p>Similar to cotton candy, Banana Cue can be easily found on the streets of the Philippines, with vendors selling them in front of their homes or roaming around the streets. Unlike cotton candy machines, Banana Cue is still preferred to be cooked and sold on the streets, making it a quintessential part of Filipino street food culture.</p>
+                    <p>Banana Cue is made by skewering fried Saba bananas on bamboo sticks, making it a convenient and easy-to-eat snack that is enjoyed by many as a mid-afternoon treat. Apart from its delicious taste, Banana Cue is also a nutritious snack that provides the body with essential vitamins and minerals, making it a guilt-free indulgence for those looking for a healthy and satisfying snack.</p>  
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>10 pcs. semi-ripe or ripe Saba Banana</li>
+                                <li>1/4 cup brown sugar</li>
+                                <li>2 cups Vegetable cooking oil</li>
+                                <li>10 pcs bamboo skewers</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Heat cooking oil in a large wok over high flame.</li>
+                                <li>Once hot, add sliced bananas to the wok and fry for about 2 minutes or until they start to slightly brown.</li>
+                                <li>Sprinkle brown sugar on top of the bananas and let it sit without stirring.</li>
+                                <li>When the sugar starts to caramelize, stir the bananas to have them coated with caramelized sugar.</li>
+                                <li>Continue frying and stirring several times until the bananas are fully coated with caramelized sugar, being careful not to overcook them.</li>
+                                <li>Turn off the heat and drain the bananas in a fry skimmer strainer, colander, or deep bowl with paper towels to remove excess oil.</li>
+                                <li>Skewer two bananas in a bamboo stick while they slightly cool down.</li>
+                                <li>Serve and enjoy your delicious caramelized banana skewers!</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "champorado">
+                <h2>CHAMPORADO</h2>
+                <img src = "images/meryenda/champorado.jpg" alt = "Champorado">
+                <div class = "card-info">
+                    <p>Champorado, also known as tsampurado, is a beloved sweet dish in the Philippines made from sticky rice and tablea, or locally sourced cacao tablets. While it originated from the Mexican champurrado, the Filipino adaptation has been heavily influenced by Chinese culinary traditions. Unlike the Spanish version that uses corn masa, the modern-day recipe employs glutinous rice, which gives the porridge its signature sticky texture.</p>
+                    <p>Champorado is typically served as a breakfast or midday snack, often accompanied by salted fish or tuyo to balance the sweetness with some salty flavors. It is also common to enjoy this hearty dish with a side of pandesal or bread to complete the meal. Some Filipinos like to add evaporated milk to their champorado to make it creamier and richer in flavor.</p>
+                    <p>Aside from its delicious taste, champorado also carries a significant cultural and historical importance for Filipinos. It is a comforting dish that has been passed down from generation to generation, and continues to be a favorite among both young and old.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>5 cups water</li>
+                                <li>1 cup glutinous rice</li>
+                                <li>4 pieces tablea chocolate</li>
+                                <li>1/2 cup sugar</li>
+                                <li>1/2 cup evaporated milk</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Begin by heating a deep pot over medium heat and adding water until it comes to a boil.</li>
+                                <li>Add rice to the pot and stir to distribute evenly. Lower the heat and continue cooking while stirring occasionally, until the rice starts to expand.</li>
+                                <li>Add the tablea, stirring regularly until the chocolate has melted completely. Keep cooking until the rice becomes translucent and the liquid has reduced to the desired consistency.</li>
+                                <li>Add sugar to the pot and continue cooking, stirring regularly until it dissolves completely.</li>
+                                <li>Once fully cooked, ladle the champorado onto bowls, and drizzle with some evaporated milk.</li>
+                                <li>Serve hot and enjoy your delicious and comforting champorado!</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "chicken-mami">
+                <h2>CHICKEN MAMI</h2>
+                <img src = "images/meryenda/chickenmami.jpg" alt = "Chicken Mami">
+                <div class = "card-info">
+                    <p>Chicken Mami is a Filipino comfort food that has become a staple in many households and street food stalls. It is a noodle soup made with chicken broth, fresh egg noodles, vegetables, and chicken meat. The soup is a popular street food in the Philippines, sold by street vendors and small eateries.</p>
+                    <p>What makes Chicken Mami unique is the homemade chicken broth that is simmered for hours to create a rich and flavorful base. The fresh egg noodles are also a key ingredient, providing a chewy and silky texture that complements the savory broth. The dish is often served with a variety of vegetables, such as sliced carrots, cabbage, and green onions, adding color and nutrients to the dish.</p>
+                    <p>Aside from being a delicious meal, Chicken Mami also holds a special place in Filipino culture. It is a symbol of warmth and comfort, often enjoyed on a rainy day or when feeling under the weather. Many Filipinos have fond memories of eating Chicken Mami with their families or friends, making it a cherished part of their childhood. Whether it's from a street vendor or homemade, Chicken Mami is a must-try dish for anyone looking to experience the comforting flavors of Filipino cuisine.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>1 ½ liter water</li>
+                                <li>400 grams chicken breast (boneless)</li>
+                                <li>1 chicken broth cube (optional)</li>
+                                <li>1 tablespoon soy sauce</li>
+                                <li>2 tablespoon fish sauce (can also use salt)</li>
+                                <li>1 teaspoon ground black pepper</li>
+                                <li>250 grams egg noodles (thin) - cooked according to package instructions</li>
+                                <li>1-2 stalk spring onions - chopped</li>
+                                <li>1 medium carrot - cut into thin strips</li>
+                                <li>150 grams shredded cabbage or iceberg lettuce</li>
+                                <li>4 eggs (hard boiled)</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Begin by cooking the chicken in a pot of boiling water until tender. Remove the chicken from the pot and set it aside to cool.</li>
+                                <li>Strain the broth and return it to the pot. Add garlic, onions, and peppercorns to the pot and bring it to a boil.</li>
+                                <li>Once boiling, reduce the heat and let the broth simmer for an hour. After an hour, remove the garlic, onions, and peppercorns from the pot.</li>
+                                <li>Shred the chicken meat and set it aside.</li>
+                                <li>Cook the fresh egg noodles according to the package instructions.</li>
+                                <li>In a separate pot, boil water and add the cooked egg noodles.</li>
+                                <li>Add the shredded chicken meat to the pot of broth and heat it through.</li>
+                                <li>To assemble the dish, divide the cooked egg noodles among bowls and ladle the hot chicken broth over them.</li>
+                                <li>Top each bowl with shredded chicken meat and chopped vegetables.</li>
+                                <li>Enjoy your delicious bowl of Chicken Mami!</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "empanada">
+                <h2>EMPANADA</h2>
+                <img src = "images/meryenda/empanada.jpg" alt = "Empanada">
+                <div class = "card-info">
+                    <p>Empanada is a popular pastry dish with a unique half-circle shape that is typically filled with a savory stuffing. Its name has an interesting origin as it comes from the Galician verb empanar, which means "enbreaded" or wrapped in bread. To prepare an empanada, the dough is folded over a filling, which can either be made of meat or vegetables, before baking or frying the dough until crispy. Although the exact origin of empanadas is not clear, it is believed to have originated in Galicia, a region in northwest Spain. Over time, the dish was carried by Spanish colonizers and became popular in Latin America and the Philippines. In the Philippines, empanadas are typically filled with ground meat, potatoes, spices, and raisins. However, this recipe offers a healthy vegetarian alternative, where the soft pocket of dough is stuffed with a delicious and nutritious vegetarian filling.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                        <p>Empanada Beef (Meat) Filling</p>
+                            <ul>
+                                <li>2 tbsp oil optional if the meat you’re using has a good amount of fat content</li>
+                                <li>3 cloves garlic chopped</li>
+                                <li>1 medium onion chopped</li>
+                                <li>2 plum tomatoes diced</li>
+                                <li>1/2 lb ground beef</li>
+                                <li>1/2 lb ground pork</li>
+                                <li>4 tbsp soy sauce</li>
+                                <li>Ground black pepper to taste (optional)</li>
+                                <li>2 red potatoes diced</li>
+                                <li>1/2 a piece of a large red bell pepper diced (optional)</li>
+                                <li>1 small carrot diced</li>
+                                <li>1/2 cup raisins</li>
+                                <li>1/2 cup peas</li>
+                            </ul>
+                        <p>Empanada Dough</p>
+                            <ul>
+                                <li>3 cups all-purpose flour</li>
+                                <li>3 tbsp granulated sugar</li>
+                                <li>1 tsp salt</li>
+                                <li>1 cup (2 sticks) unsalted butter, chilled and cut into small cubes</li>
+                                <li>¾ cup water, divided</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Heat oil in a frying pan and sauté garlic and onion for 1 minute.</li>
+                                <li>Add diced tomatoes and cook for 5 minutes or until the onions and tomatoes are soft.</li>
+                                <li>Add ground beef and pork, crumble with a fork, season with soy sauce and black pepper and cook until brown.</li>
+                                <li>Add potatoes or red bell pepper and carrots, cover and simmer for 5-8 minutes or until the vegetables are soft.</li>
+                                <li>Uncover and stir in raisins, raise the heat, and cook for 3-5 minutes or until most of the liquid has evaporated.</li>
+                                <li>Add peas and cook for a few more minutes. Set aside to cool.</li>
+                                <li>In a stand mixer with the paddle attachment, mix flour, sugar, salt, and butter. Pour in ice water and mix until the dough is clumpy but soft.</li>
+                                <li>Divide dough into two and form into disks, wrap in plastic, and refrigerate for an hour. Roll to 1/8 inch thickness and use a round cutter to make circles.</li>
+                                <li>Fill the dough with a rounded tablespoon of filling and fold to form a half-moon shape. Crimp or use a fork to seal the edges.</li>
+                                <li>Brush with egg wash and fry in a deep fryer until golden brown or bake in a preheated oven for 20-25 minutes.</li>
+                                <li>Serve warm or at room temperature.</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "halo-halo">
+                <h2>HALO-HALO</h2>
+                <img src = "images/meryenda/halohalo.jpg" alt = "Halo-Halo">
+                <div class = "card-info">
+                    <p>Halo-halo is a beloved Filipino dessert that literally means "mix-mix" in English. It is a colorful and refreshing dessert that is perfect for hot and humid weather. The dessert is made up of a variety of ingredients, including sweet beans, fruits, jelly, tapioca pearls, and shaved ice. It is topped with evaporated milk, leche flan, ube jam, and ice cream, giving it a creamy and sweet flavor.</p>
+                    <p>What makes halo-halo unique is the way it is prepared and presented. The ingredients are carefully arranged in layers in a tall glass or bowl, making it a visual treat. Before eating, the dessert is mixed thoroughly to blend all the flavors together, creating a perfect balance of sweet and creamy goodness in every spoonful.</p>
+                    <p>The origins of halo-halo can be traced back to pre-colonial Philippines, where locals would mix shaved ice with fruits and coconut milk. Over time, the recipe evolved and was influenced by various cultures, including Chinese, Spanish, and American. Today, halo-halo is a popular dessert in the Philippines and has gained popularity around the world, especially in areas with large Filipino communities.</p>
+                    <p>Halo-halo is more than just a dessert; it represents the diverse and vibrant culture of the Philippines. It is a delicious and refreshing treat that brings people together, and it's no wonder why it's a favorite dessert among Filipinos and non-Filipinos alike.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>2 cups of shaved ice</li>
+                                <li>1 ripe large banana</li>
+                                <li>1 cup young shredded coconut, fresh or bottled</li>
+                                <li>1/2 cup sweet corn or chickpeas (garbanzos)</li>
+                                <li>2 cups evaporated milk</li>
+                                <li>1 cup firm gelatin set into a gel and cut into 1/2 inch cubes</li>
+                                <li>2 ripe mangoes</li>
+                                <li>1 cup ripe jackfruit</li>
+                                <li>1 cup cooked sweet yams or (ube halaya)</li>
+                                <li>4 scoops of favorite ice cream</li>
+                                <li>1/2 cup rice pop</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Peel the mangoes and cut them into half-inch cubes.</li>
+                                <li>Divide all the ingredients into four equal portions.</li>
+                                <li>Take four tall glasses and layer the ingredients in each glass.</li>
+                                <li>Add half a cup of shaved ice to each glass.</li>
+                                <li>Pour a quarter of the evaporated milk over the shaved ice in each glass.</li>
+                                <li>Place a scoop of ice cream on top of each glass.</li>
+                                <li>Sprinkle some nuts or rice crispies over the ice cream.</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "lomi">
+                <h2>LOMI</h2>
+                <img src = "images/meryenda/lomi.jpg" alt = "Lomi">
+                <div class = "card-info">
+                    <p>Lomi is a popular Filipino noodle dish that originated in the Batangas province. It is a thick and hearty soup that is usually made with thick egg noodles, pork, chicken, and a variety of vegetables like cabbage, carrots, and mushrooms. The broth is usually thickened with cornstarch or flour, giving it a rich and creamy texture. Some versions of lomi also include seafood like shrimp, squid, and fish balls.</p>
+                    <p>Lomi is a comfort food that is often enjoyed during cold or rainy days. It is commonly served as a main dish during lunch or dinner and can be found in many local eateries, street food stalls, and restaurants all over the Philippines. It is also a popular dish to serve during special occasions and celebrations like birthdays, fiestas, and family gatherings.</p>
+                    <p>One of the unique things about lomi is its versatility. It can be customized to suit different tastes and preferences. Some people like it spicy and add chili or hot sauce, while others prefer it milder and add more soy sauce or vinegar for tanginess. Some variations of lomi also use different types of noodles like vermicelli or glass noodles.</p>
+                    <p>Overall, lomi is a hearty and satisfying dish that is beloved by many Filipinos. Its comforting flavors and textures make it a go-to comfort food for many, and its versatility ensures that it can be enjoyed in different ways.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>•	1/2 lb. fresh flat miki noodles</li>
+                                <li>10 ounces boneless chicken breast sliced into thin pieces</li>
+                                <li>1 Knorr Chicken Cube</li>
+                                <li>1/2 medium cabbage chopped</li>
+                                <li>1 cup chopped carrots</li>
+                                <li>1/2 cup chopped scallions</li>
+                                <li>1 medium yellow onion cubed</li>
+                                <li>3 cloves garlic crushed</li>
+                                <li>1 tablespoon cornstarch</li>
+                                <li>1 egg</li>
+                                <li>6 to 7 cups water</li>
+                                <li>1 teaspoon salt</li>
+                                <li>1/4 teaspoon ground black pepper</li>
+                                <li>3 tablespoons cooking oil</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Begin by heating oil in a cooking pot.</li>
+                                <li>Saute garlic, onion, and carrots in the pot.</li>
+                                <li>Add the sliced chicken to the pot and cook until it turns light brown.</li>
+                                <li>Pour water into the pot and let it boil.</li>
+                                <li>Add Knorr chicken cube to the pot and stir. Cover the pot and let the chicken cook on low to medium heat for 15 minutes.</li>
+                                <li>Add cabbage and miki noodles to the pot and cook for 8 to 10 minutes.</li>
+                                <li>Add scallions to the pot and stir.</li>
+                                <li>Pour the egg into the pot while continuously stirring to prevent it from forming.</li>
+                                <li>Mix 1/4 cup water with cornstarch in a separate bowl and then pour it into the pot. Stir until the soup thickens.</li>
+                                <li>Add salt and ground black pepper to the pot and cook for an additional 2 minutes.</li>
+                                <li>Transfer the chicken lomi to a serving bowl and serve.</li>
+                                <li>Share and enjoy!</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "lugaw">
+                <h2>LUGAW</h2>
+                <img src = "images/meryenda/lugaw.png" alt = "Lugaw">
+                <div class = "card-info">
+                    <p>Lugaw is a traditional Filipino rice porridge that is commonly eaten as a breakfast or a comfort food during cold and rainy days. It is a simple dish made with rice, water, and some seasonings. The recipe can vary depending on the region or the preference of the cook.</p>
+                    <p>Lugaw is a staple food in the Philippines, particularly in urban areas where it is sold in small eateries and street vendors at a very affordable price. It is a popular dish among people from all walks of life, including those who are on a tight budget. It is also a common dish served in gatherings, such as wakes and other occasions where comfort food is needed.</p>
+                    <p>Lugaw is also known for its versatility, as it can be served with various toppings, such as fried garlic, scallions, toasted peanuts, and hard-boiled eggs, among others. Some people also add meat or seafood to the porridge, such as chicken, beef, pork, or fish. Additionally, lugaw is often served with a side dish of tokwa't baboy, which is a mixture of boiled pork and fried tofu in vinegar and soy sauce.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>1 can Corned chicken (Argentina) 150g</li>
+                                <li>1/2 cup long grain rice</li>
+                                <li>1 tbsp ginger</li>
+                                <li>1 pc onion</li>
+                                <li>1 pc chicken cubes</li>
+                                <li>5 cups water</li>
+                                <li>cooking oil</li>
+                                <li>black pepper</li>
+                                <li>salt or fish sauce to taste</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Heat 2-3 Tbsp of cooking oil in a deep pan. Sauté 5 cloves of minced garlic until golden brown. Set aside for later.</li>
+                                <li>In the same pan, sauté 1 Tbsp of Julienne cut ginger. Next, add 1 sliced onion.</li>
+                                <li>Put 1/2 cup of washed long-grain rice and pour 3 cups of water. Cover the pan and let it simmer for 12-15 minutes. Stir occasionally to prevent the rice from sticking.</li>
+                                <li>Add 1 can or 150 grams of corned chicken and pour another 2 cups of water.</li>
+                                <li>Add 1 piece of chicken broth cube and let it simmer for another 15-20 minutes.</li>
+                                <li>Add some salt and a dash of black ground pepper.</li>
+                                <li>Let it cook for a while before transferring it to a serving bowl.</li>
+                                <li>Serve with an egg and fried garlic on top.</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "maja-blanca">
+                <h2>MAJA BLANCA</h2>
+                <img src = "images/meryenda/majablanca.png" alt = "Maja Blanca">
+                <div class = "card-info">
+                    <p>Maja Blanca is a popular Filipino dessert that is made from coconut milk, cornstarch, sugar, and sweet corn kernels. It is a creamy and smooth pudding that is traditionally served during special occasions such as fiestas and family gatherings. The name "Maja Blanca" is derived from the Spanish phrase "más blanca," which means "whiter." The dessert gets its name from its signature color, which is white. Maja Blanca is often topped with grated coconut or latik, which is a sweet caramelized coconut cream. It is a delicious and comforting dessert that is enjoyed by many Filipinos all around the world.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>2 cans (13.5 ounces each) coconut milk</li>
+                                <li>1 can (14 ounces) cut corn, drained</li>
+                                <li>1/2 cup sugar</li>
+                                <li>1/4 cup cold water</li>
+                                <li>1/2 cup cornstarch</li>
+                                <li>1/4 cup desiccated coconut flakes</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Combine coconut milk, corn, and sugar in a saucepan and bring to a gentle boil over medium heat, stirring occasionally until sugar dissolves.</li>
+                                <li>Mix cornstarch and cold water in a small bowl until smooth. Gradually add to the coconut milk, whisking vigorously to prevent lumps.</li>
+                                <li>Cook mixture for about 2 to 4 minutes or until it thickens to a smooth paste consistency while whisking regularly.</li>
+                                <li>Transfer the thickened coconut mixture into a lightly greased 8 x 8 baking dish and smooth the surface using a spatula.</li>
+                                <li>Allow the pudding to cool for a few minutes, then cover and refrigerate for 1 to 2 hours until completely set.</li>
+                                <li>Toast shredded coconut in an ungreased skillet over medium heat for 1 to 2 minutes or until golden brown, stirring frequently. Remove from heat immediately.</li>
+                                <li>When serving maja blanca, sprinkle the toasted coconut flakes on top and cut it into squares.</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "pancit-palabok">
+                <h2>PANCIT PALABOK</h2>
+                <img src = "images/meryenda/pancitpalabok.jpg" alt = "Pancit Palabok">
+                <div class = "card-info">
+                    <p>Pancit Palabok is a popular Filipino noodle dish that is known for its bright orange hue and delicious flavor. The dish is typically made with thin rice noodles that are topped with a savory sauce made from shrimp broth, annatto powder, and other seasonings. The sauce is then garnished with a variety of toppings, including boiled eggs, pork cracklings, shrimp, and scallions.</p>
+                    <p>The origin of Pancit Palabok is somewhat unclear, but it is believed to have been influenced by the Chinese and Spanish cuisines that have heavily influenced Filipino food. The dish is typically served during special occasions and gatherings, as it is often time-consuming and labor-intensive to prepare. Despite this, it remains a popular and beloved dish among Filipinos both in the Philippines and abroad.</p>
+                    <p>One of the key ingredients in Pancit Palabok is annatto powder, which gives the dish its distinctive orange color. This spice is made from the seeds of the achiote tree, which is native to tropical regions in the Americas. In Filipino cuisine, annatto powder is commonly used to color and flavor a variety of dishes, from stews to marinades.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>500 grams rice noodles bihon</li>
+                            </ul>
+                            <p>Sauce Ingredients</p>
+                            <ul>
+                                <li>2 tbsp cooking oil</li>
+                                <li>1/2 lb ground pork</li>
+                                <li>1 tbsp anatto powder</li>
+                                <li>3 cups pork broth</li>
+                                <li>1 piece shrimp bouillon</li>
+                                <li>6 tablespoons all-purpose flour</li>
+                                <li>2 tbsp fish sauce</li>
+                                <li>1/2 tsp ground black pepper</li>
+                            </ul>
+                            <p>Topping Ingredients</p>
+                            <ul>
+                                <li>1 cup pork belly boiled and sliced thinly into small pieces</li>
+                                <li>4 ounces firm tofu fried and sliced into cubes</li>
+                                <li>½ cup tinapa flakes smoked fish</li>
+                                <li>½ cup chicharon pounded</li>
+                                <li>2 hard boiled eggs sliced</li>
+                                <li>½ cup cooked shrimps boiled or steamed</li>
+                                <li>1/4 cup green onion or scallions finely chopped</li>
+                                <li>3 Tablespoons toasted garlic</li>
+                                <li>2 lemons sliced (or 6 pieces calamansi)</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Soak the rice noodles in water for 15 minutes and drain.</li>
+                                <li>Heat a saucepan and add cooking oil.</li>
+                                <li>Put ground pork and cook for 5 to 7 minutes.</li>
+                                <li>Dilute annatto powder in pork broth and add it to the saucepan. Bring to a boil (if using annatto seeds, soak in 3 tbsp of water to bring out the color).</li>
+                                <li>Add shrimp cube, stir and simmer for 3 minutes.</li>
+                                <li>Gradually add flour while stirring.</li>
+                                <li>Add fish sauce and ground black pepper, then simmer until sauce thickens. Set aside.</li>
+                                <li>Boil enough water in a pot.</li>
+                                <li>Place soaked noodles in a strainer and submerge it in the boiling water for about a minute or until cooked but still firm.</li>
+                                <li>Remove the strainer from the pot and drain the liquid from the noodles.</li>
+                                <li>Place the noodles in the serving plate.</li>
+                                <li>Pour the sauce on top of the noodles then arrange the toppings over the sauce.</li>
+                                <li>Serve with a slice of lemon or calamansi.</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "pinoy-spaghetti">
+                <h2>PINOY SPAGHETTI</h2>
+                <img src = "images/meryenda/pinoyspaghetti.jpg" alt = "Pinoy Spaghetti">
+                <div class = "card-info">
+                    <p>Filipino-style spaghetti is a popular dish in the Philippines, and it has a unique flavor profile that sets it apart from traditional Italian spaghetti. The dish features a sweet and savory tomato-based sauce that includes a variety of ingredients such as ground pork, sliced hot dogs, and sliced Spam. Some versions of the dish may also include banana ketchup, a popular condiment in the Philippines that adds a distinct sweetness to the sauce. The dish is often served with grated cheese on top, which adds a creamy texture and balances out the flavors of the sauce. Filipino-style spaghetti is a staple at Filipino gatherings such as birthday parties and family reunions, and it is often paired with other classic Filipino dishes such as lumpia and fried chicken. While some may find the sweetness of the sauce unusual at first, it has become a beloved comfort food in the Philippines and is a favorite among both children and adults. Filipino-style spaghetti has also gained popularity outside of the Philippines, and many Filipino restaurants around the world offer their own unique take on the dish.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>1 lbs spaghetti</li>
+                                <li>1/2 cup cheddar cheese grated</li>
+                            </ul>
+                            <p>Spaghetti Sauce Ingredients</p>
+                            <ul>
+                                <li>1 lb. ground pork</li>
+                                <li>4 pieces hotdogs sliced</li>
+                                <li>1 cup banana ketchup</li>
+                                <li>28 ounces tomato sauce</li>
+                                <li>2 tablespoons tomato paste optional</li>
+                                <li>1/2 cup water</li>
+                                <li>2 tablespoons sugar</li>
+                                <li>1 onion diced</li>
+                                <li>3 cloves garlic chopped</li>
+                                <li>4 Tbsp. cooking oil</li>
+                                <li>Salt and ground black pepper to taste</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Cook spaghetti based on package instruction. Set aside.</li>
+                                <li>Make the sauce. Heat oil in a pan. Saute garlic and onion.</li>
+                                <li>Once the onion softens, add ground pork. Cook until the color of the pork turns light brown. </li>
+                                <li>Add hotdogs. Cook for 2 minutes.</li>
+                                <li>Pour tomato sauce, banana ketchup, and water into the pot. Add sugar. Cover the pot and cook in low heat setting for 20 to 25 minutes.</li>
+                                <li>Add tomato paste (as needed). Season with salt and ground black pepper.</li>
+                                <li>Arrange spaghetti on a pasta bowl and top with Filipino Style Spaghetti Sauce. Sprinkle a generous amount of cheese before serving.</li>
+                                <li>Share and enjoy!</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "puto">
+                <h2>PUTO</h2>
+                <img src = "images/meryenda/puto.jpg" alt = "Puto">
+                <div class = "card-info">
+                    <p>Puto is a Filipino steamed rice cake that is commonly served as a snack or dessert. The recipe calls for a mixture of rice flour, sugar, baking powder, and water, which is then poured into small molds and topped with grated cheese. The mixture is then steamed for about 20-25 minutes until it becomes fluffy and fully cooked.</p>
+                    <p>Puto is a popular Filipino snack that can be found in many bakeries and markets throughout the country. It is often served with grated coconut, butter, or a sweet sauce made from sugar and water. Puto can also be flavored with different ingredients such as pandan, ube, or chocolate.</p>
+                    <p>In Filipino culture, puto is often served during special occasions such as birthdays, weddings, and fiestas. It is a versatile dish that can be enjoyed on its own or paired with other Filipino delicacies such as dinuguan or pancit. The process of making puto can also be a fun activity for families or friends to do together.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>4 cups flour</li>
+                                <li>2 cups sugar white</li>
+                                <li>2 1/2 tbsp baking powder</li>
+                                <li>1 cup evaporated milk</li>
+                                <li>2 1/2 cups water</li>
+                                <li>1/2 cup butter, melted (optional)</li>
+                                <li>4 tsp vanilla extract (optional)</li>
+                                <li>2 eggs beaten-optional</li>
+                                <li>Cheese – cut into small pieces for toppings.</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>In a mixing bowl, combine all the dry ingredients and mix well.</li>
+                                <li>Add the butter, vanilla, eggs (optional), evaporated milk, and water to the bowl.</li>
+                                <li>Thoroughly mix all the ingredients until they are well-combined.</li>
+                                <li>Pour the mixture into molds or small cupcake pans, filling them about 3/4 full.</li>
+                                <li>Place a piece of cheese on top of the mixture in each mold.</li>
+                                <li>Preheat a steamer.</li>
+                                <li>Put the molds in the steamer and steam for 20-25 minutes.</li>
+                                <li>Remove the Puto from the molds and serve!</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "suman">
+                <h2>SUMAN</h2>
+                <img src = "images/meryenda/suman.jpg" alt = "Suman">
+                <div class = "card-info">
+                    <p>Suman is a Filipino delicacy made of glutinous rice wrapped in banana leaves and steamed. It is a popular snack or dessert that can be eaten on its own or paired with various dips and sauces, such as sugar, coconut jam, or mangoes. The recipe for suman malagkit involves soaking glutinous rice in water for a few hours, then mixing it with coconut milk and sugar. The mixture is then wrapped in banana leaves and steamed until cooked.</p>
+                    <p>Suman has been a part of Filipino culture for centuries, and is commonly served during special occasions such as weddings and fiestas. It is also a popular snack during merienda (mid-afternoon snack) or breakfast. Its popularity can be attributed to its simplicity, affordability, and versatility. Suman can be made in different variations and flavors, depending on the region and available ingredients. Some suman variations are mixed with fruits, chocolate, or pandan leaves to add flavor and color.</p>
+                    <p>Aside from being a tasty snack, suman also holds cultural and historical significance in the Philippines. It is believed to have originated from the pre-colonial times, where it was used as a portable food for long journeys and as an offering for gods and ancestors during harvest festivals. Today, suman remains a beloved Filipino delicacy that showcases the country's rich culinary heritage.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>2 cups Glutinous rice (Malagkit)</li>
+                                <li>1 tsp. salt</li>
+                                <li>2 cups fresh or 1 canned coconut milk (400 ml)</li>
+                                <li>banana leaves for wrapping</li>
+                                <li>water for boiling</li>
+                                <li>1 cup sugar (brown or white)</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Soak the glutinous rice in water for 2 to 3 hours and drain well.</li>
+                                <li>Prepare banana leaves by cutting them into 10 by 10 inches sheets and trimming the stiff ends.</li>
+                                <li>Pass the leaves briefly over flames for 10 to 20 seconds and set aside.</li>
+                                <li>Mix coconut milk, salt, and sugar in a pot on medium heat and stir well.</li>
+                                <li>Add glutinous rice and cook for 15 minutes, stirring occasionally until the liquid is absorbed.</li>
+                                <li>Remove from heat and let it cool.</li>
+                                <li>Put 2 tablespoons of the rice mixture on a banana leaf and roll the leaf tightly, leaving 1 inch on the top and bottom side.</li>
+                                <li>Fold the edges to seal and tie with a string.</li>
+                                <li>In a steamer, stack the suman and steam for around 30 minutes to one hour over boiling water, making sure they are tender before removing them from the steamer.</li>
+                                <li>Allow the suman to cool before unwrapping so that it will firm up.</li>
+                                <li>Serve with sugar, sweetened grated coconut, latik, or ripe mango. Enjoy!</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "recipe" id = "turon">
+                <h2>TURON</h2>
+                <img src = "images/meryenda/turon.jpg" alt = "Turon">
+                <div class = "card-info">
+                    <p>Banana Turon, also known as lumpiang saging in the Philippines, is a type of sweet lumpia that is a favorite among Filipinos. This delightful snack is made by taking ripe saba bananas and coating them in sugar before rolling them in spring roll wrappers. The Turon is then deep-fried until it reaches a crispy, golden perfection.</p>
+                    <p>One of the unique features of Turon is its versatility. It can be enjoyed as a snack or a dessert and is a popular street food in the Philippines. You can easily find vendors selling this delicacy on busy streets or at local markets.</p>
+                    <p>Another interesting aspect of Turon is its affordability. It is a simple dish made from easy-to-find ingredients, which makes it accessible to many people, regardless of their financial situation. This aspect has made it a staple snack in many Filipino households and has helped to solidify its status as a beloved Filipino food.</p>
+                    <p>In addition to being delicious and affordable, Turon is also a symbol of Filipino ingenuity and resourcefulness. This is because it originated from the concept of recycling leftover ingredients. Filipinos would use their extra bananas and spring roll wrappers to make this delectable treat, which showcases their ability to transform something ordinary into something extraordinary.</p>
+                    <div class = "ii">
+                        <h4>Ingredients</h4>
+                            <ul>
+                                <li>12 saba bananas</li>
+                                <li>1 cup sugar</li>
+                                <li>24 spring roll wrappers</li>
+                                <li>1/2 cup sweetened jackfruit, cut into strips</li>
+                                <li>canola oil</li>
+                            </ul>
+                        <h4>Instructions</h4>
+                            <ol>
+                                <li>Peel and cut bananas lengthwise into two halves.</li>
+                                <li>Heat about 1-inch deep of oil in a skillet over medium heat.</li>
+                                <li>Separate wrappers into individual sheets and lay a wrapper on a flat surface like a diamond.</li>
+                                <li>Roll a banana half in sugar and place it in the middle of the wrapper. Place 2 to 3 jackfruit strips lengthwise on top of the banana.</li>
+                                <li>Fold the bottom pointed end of the wrapper over the filling. Fold side ends of the sheet inward and roll the turon into a tight log. Wet the pointed edge of the wrapper to completely seal.</li>
+                                <li>Roll sealed spring rolls in sugar to coat and repeat with the remaining bananas.</li>
+                                <li>Add banana spring rolls with seam side down in a single layer in the heated oil and fry, turning once or twice, until golden and sugar is caramelized.</li>
+                                <li>Remove from the pan and drain on a wire rack before serving immediately.</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class = "up">
+        <button class = "up-button"><a href = "#banner">&#187</a></button>
+    </div>
+
+</body>
+</html>
+<script>
+// Mobile menu toggle
+function toggleMenu() {
+    const nav = document.getElementById('navigation');
+    nav.classList.toggle('active');
+}
+
+function closeMenu() {
+    const nav = document.getElementById('navigation');
+    nav.classList.remove('active');
+}
+
+// Close menu when clicking outside
+document.addEventListener('click', function(event) {
+    const nav = document.getElementById('navigation');
+    const menuToggle = document.querySelector('.menu-toggle');
+    
+    if (nav && menuToggle && !nav.contains(event.target) && !menuToggle.contains(event.target)) {
+        nav.classList.remove('active');
+    }
+});
+</script>
